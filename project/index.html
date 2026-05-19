@@ -1,0 +1,154 @@
+<!-- coffee-shop.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кофейня «Urban Brew» | Только HTML/CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="logo">Urban <span>Brew</span></div>
+        <div class="tagline">Кофе с характером • Уют в каждой чашке</div>
+    </div>
+</div>
+
+<div class="nav">
+    <div class="container">
+        <ul class="nav-links">
+            <li><a href="#coffee">Кофе</a></li>
+            <li><a href="#menu">Меню</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </div>
+</div>
+
+<section id="coffee" class="section">
+    <div class="container">
+        <h2 class="section-title">☕ Наши хиты</h2>
+        <div class="section-subtitle">Авторские рецепты и классика</div>
+        
+        <div class="coffee-grid">
+            <!-- Карточка 1 -->
+            <div class="coffee-card card-1">
+                <div class="coffee-img">
+                    ☕✨
+                </div>
+                <div class="coffee-info">
+                    <h3>Раф «Ванильный сон»</h3>
+                    <p>Нежный раф на сливках с натуральной ванилью и корицей.</p>
+                    <div class="price">290 ₽</div>
+                    <a href="#" class="order-btn">Заказать столик</a>
+                </div>
+            </div>
+            <div class="coffee-card card-2">
+                <div class="coffee-img">
+                    🍫🔥
+                </div>
+                <div class="coffee-info">
+                    <h3>Латте «Карамельный взрыв»</h3>
+                    <p>Молочный латте с домашней солёной карамелью.</p>
+                    <div class="price">310 ₽</div>
+                    <a href="#" class="order-btn">Заказать столик</a>
+                </div>
+            </div>
+            <div class="coffee-card card-3">
+                <div class="coffee-img">
+                    🍃🧊
+                </div>
+                <div class="coffee-info">
+                    <h3>Колд брю «Нитро»</h3>
+                    <p>Холодное заваривание 12 часов — шёлковый вкус.</p>
+                    <div class="price">350 ₽</div>
+                    <a href="#" class="order-btn">Заказать столик</a>
+                </div>
+            </div>
+            <div class="coffee-card card-4">
+                <div class="coffee-img">
+                    🍊🌿
+                </div>
+                <div class="coffee-info">
+                    <h3>Turmeric Latte</h3>
+                    <p>Растительное молоко, куркума, имбирь и мёд.</p>
+                    <div class="price">330 ₽</div>
+                    <a href="#" class="order-btn">Заказать столик</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="menu" class="section">
+    <div class="container">
+        <h2 class="section-title">📋 Полное меню</h2>
+        <div class="section-subtitle">Кофе, десерты, альтернативные напитки</div>
+        
+        <table class="menu-table">
+            <thead>
+                <tr><th>Напиток / десерт</th><th>Описание</th><th>Цена</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>Эспрессо</strong></td><td>Классический 30 мл, двойной арабика</td><td class="price">150 ₽</td></tr>
+                <tr><td><strong>Капучино</strong></td><td>Итальянский баланс кофе и молока</td><td>260 ₽</td></tr>
+                <tr><td><strong>Матча латте</strong></td><td>Японский чай матча на миндальном молоке</td><td>340 ₽</td></tr>
+                <tr><td><strong>Чизкейк «Нью-Йорк»</strong></td><td>Нежный, с малиновым кули</td><td>280 ₽</td></tr>
+                <tr><td><strong>Круассан с шоколадом</strong></td><td>Хрустящий французский круассан</td><td>190 ₽</td></tr>
+            </tbody>
+        </table>
+        <div style="margin-top: 20px; text-align: right; font-size: 0.8rem; color:#7f6b58;">* Добавка сиропа — 50 ₽</div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-text">
+                <h2 class="section-title" style="text-align: left;">🏠 О месте</h2>
+                <p><strong>Urban Brew</strong> — это городская кофейня в стиле лофт, где каждый может найти свой идеальный кофе. Мы обжариваем зерна сами и работаем с фермерами напрямую.</p>
+                <p>Наша философия: качество, уют и дружелюбный сервис. Приходите поработать за ноутбуком или встретиться с друзьями — у нас всегда вкусно пахнет корицей и свежей выпечкой.</p>
+                <ul class="features-list">
+                    <li><span class="feature-icon">✅</span> Свежая обжарка каждую неделю</li>
+                    <li><span class="feature-icon">✅</span> Посадочные места с розетками и Wi-Fi</li>
+                    <li><span class="feature-icon">✅</span> Веганские и безлактозные альтернативы</li>
+                </ul>
+            </div>
+            <div class="about-img">
+                🪑✨☕<br>
+                <span style="font-size: 0.9rem;">Уголок с видом на город</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contacts" class="section">
+    <div class="container">
+        <div class="contacts-block">
+            <h2 class="section-title">📍 Контакты</h2>
+            <div class="contacts-row">
+                <div class="contact-item"><strong>📍 Адрес:</strong> ул. Арбат, 15, Москва</div>
+                <div class="contact-item"><strong>📞 Телефон:</strong> +7 (999) 123-45-67</div>
+                <div class="contact-item"><strong>📧 Email:</strong> hello@urbanbrew.ru</div>
+            </div>
+            <div class="work-hours">
+                <strong>⏰ Режим работы:</strong> Пн–Пт: 08:00 – 22:00 • Сб–Вс: 09:00 – 23:00
+            </div>
+            <div style="margin-top: 20px; font-size: 0.85rem; color: #7a6856;">
+                *Для брони столика позвоните или напишите в Telegram
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="footer">
+    <div class="container">
+        <p>© 2026 Кофейня «Urban Brew»</p>
+    
+    </div>
+</div>
+
+</body>
+</html>
